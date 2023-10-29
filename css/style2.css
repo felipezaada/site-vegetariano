@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --red: #ff0000;
+    --burgundy: #84242c;
+    --bloodred: #620202;
+    --orchidpink: #f6bdd1;
+    --melon: #f0b5b3;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+
+body {
+    color:#ffffff;
+    background-color: #620202;
+    font-family: Arial;
+}
+
+a{
+    color:#ffffff;
+}
+
+p {
+    background-color: #ff0000;
+}
+
+li {
+    font-size: 1.5em;
+}

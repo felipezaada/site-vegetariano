@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <ul type="disc">
+        <li><a href="index.html">Início</a>.</li>
+        <ul type="square">
+            <li><a href="diferencas.html">Qual a diferença entre Vegetariano e Vegano?</a></li>
+            <li><a href="https://www.incrivel.com/plant-based/o-mundo-vegetal-e-que-e-animal/">Receitas Veganas</a></li>
+            <li><a href="https://www.receiteria.com.br/receitas-almoco-vegetariano/" rel="prev">Receitas Vegetariano</a>
+            </li>
+            <li><a href="questionario.html">Questionário</a></li>
+            <li><a href="galeria.html" rel="next">Galeria de fotos!</a></li>
+        </ul>
+        <li><a href="falecomwe.html">Fale Conosco!</a></li>
+    </ul>
+    <h1>VEJA ISSO!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBeTpmViPe0?si=BiKjGrtFQTpxnKXS"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <form>
+        <fieldset>
+            <legend>Preencha suas informações!</legend>
+            <p><label for="idTexto">Texto:</label><input type="text" name="nTexto" id="idTexto" size="40"
+                    placeholder="Seu nome completo"></p>
+            <p><label for="idEmail">Email:</label><input type="email" name="nEmail" id="idEmail"
+                    placeholder="exemplo@gmail.com"></p>
+            <p><label for="idData">Data:</label><input type="date" name="nData" id="idData"></p>
+            <p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Você comeria uma vaca?</legend>
+            <label for="id1">Opção Única</label>
+            <br>
+            <input type="radio" name="escolhaAdota" value="Sim" id="id1"><label for="id1">Sim</label>
+            <input type="radio" name="escolhaAdota" value="Não" id="id2"><label for="id2">Não</label>
+            <input type="radio" name="escolhaAdota" value="Talvez" id="id3"><label for="id3">Talvez</label>
+            <br>
+            <br>
+            <label for="idNum">Digite a sua idade</label>
+            <br>
+            <input type="number" name="nNum" id="idNum" min="0" max="10">
+            <br>
+            <br>
+            <label for="idSelecao">Que cor de vaca vc comeria?/label>
+                <br>
+                <select name="nSelecao" id="idSelecao">
+                    <option value="Preto">Preto</option>
+                    <option value="Marrom">Marrom</option>
+                    <option value="Branco">Branco</option>
+                    <option value="Amarelo">Verde</option>
+                </select>
+                <br>
+                <br>
+                <label for="idRange">Indique o quanto você recomenda nosso site</label>
+                <br>
+                <input type="range" min="1" max="10" name="nRange" id="idRange">
+                <br>
+                <br>
+                <label for="idCaixa">Descreva sua experiência: </label>
+                <br>
+                <textarea type="text" cols="50" rows="10" placeholder="Digite aqui alguma coisa" name="nCaixa"
+                    id="idCaixa"></textarea>
+                <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>

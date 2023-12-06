@@ -11,12 +11,12 @@
 }
 
 body {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #7BC95A;
     font-family: cursive;
 }
 
-nav{
+nav {
     background-color: #568934;
     text-align: left;
     padding: 10px;
@@ -24,7 +24,7 @@ nav{
     margin: auto;
 }
 
-header{
+header {
     background-color: #402A21;
     text-align: center;
     padding: 10px;
@@ -32,21 +32,21 @@ header{
     font-size: 2.5em;
 }
 
-main{
+main {
     padding: 10px;
     margin: auto;
     text-align: justify;
 }
 
-div{
+div {
     margin: auto;
     width: 100%;
     font-size: 2.0em;
     text-align: center;
 }
 
-a{
-    color:#ffffff;
+a {
+    color: #ffffff;
 }
 
 p {
@@ -57,6 +57,6 @@ li {
     font-size: 1.5em;
 }
 
-li > a{
+li>a {
     text-decoration: none;
 }

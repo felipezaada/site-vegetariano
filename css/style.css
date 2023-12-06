@@ -16,6 +16,35 @@ body {
     font-family: cursive;
 }
 
+nav{
+    background-color: #568934;
+    text-align: left;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+}
+
+header{
+    background-color: #402A21;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+main{
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+div{
+    margin: auto;
+    width: 100%;
+    font-size: 2.0em;
+    text-align: center;
+}
+
 a{
     color:#ffffff;
 }
@@ -26,4 +55,8 @@ p {
 
 li {
     font-size: 1.5em;
+}
+
+li > a{
+    text-decoration: none;
 }
